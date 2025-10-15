@@ -1,49 +1,77 @@
 # 🧠 Aulas em Node.js
 
-Mini projeto desenvolvido como parte dos meus estudos de **Node.js**, com foco em compreender a criação de servidores, rotas e respostas básicas utilizando o **Express**.
+Este repositório reúne mini projetos e exercícios feitos durante meus estudos de **Node.js**.  
+O objetivo é praticar a criação de servidores, rotas e APIs REST usando **Express**, além de entender na prática como funciona o backend de uma aplicação.
 
 ---
 
 ## 🚀 Tecnologias utilizadas
 - **Node.js**
-- **Express.js**
-- **Nodemon** (para ambiente de desenvolvimento)
+- **Express**
+- **Nodemon** (para desenvolvimento)
+- **JavaScript (ES6+)**
 
 ---
 
-## 📌 Objetivo do projeto
-Este exercício simula uma **API simples** capaz de responder a requisições HTTP.  
-O propósito é consolidar conceitos fundamentais do backend, como:
-- Estrutura básica de um servidor Node.js  
-- Configuração de rotas com Express  
-- Retorno de respostas no formato JSON  
-- Execução local do servidor com Nodemon
+## 📂 Estrutura do projeto
+Aulas_em_Node.js/
+├── server.js # Arquivo principal do servidor
+├── package.json # Dependências e scripts
+└── README.md # Este arquivo :)
 
----
+-----
 
-## ⚙️ Como executar o projeto
+## ▶️ Como executar o projeto
 
-1. **Clonar o repositório**
+1. **Clone este repositório**
    ```bash
    git clone https://github.com/jisselaeduarda/Aulas_em_Node.js.git
-Acessar o diretório
+
+
+   Entre na pasta
 
 cd Aulas_em_Node.js
 
-Instalar as dependências
+
+Instale as dependências
 
 npm install
-Executar o servidor
+
+
+Execute o servidor
 
 npm start
 
 
-Exemplo de rota
-app.get('/', (req, res) => {
-  res.send('Olá, Mundo!');
-});
+ou, em modo de desenvolvimento:
+
+npm run dev
 
 
-Resposta esperada no navegador:
+Acesse no navegador
 
-Olá, Mundo!
+http://localhost:3000
+-------
+
+Rotas de exemplo
+Método	Rota	Descrição
+GET	/	Retorna uma mensagem de boas-vindas
+GET	/users	Retorna lista de usuários (exemplo)
+POST	/users	Cria um novo usuário (exemplo)
+------
+
+O que estou praticando
+
+Configuração de servidor com Express
+
+Criação e organização de rotas
+
+Manipulação de requisições e respostas
+
+Estrutura de projeto backend
+
+Boas práticas com Node.js
+
+
+
+
